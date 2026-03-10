@@ -1,0 +1,12 @@
+steps:
+  - label: "Install dependencies"
+    commands:
+      - pip install -r requirements.txt
+
+  - label: "Run linter"
+    commands:
+      - flake8 src
+
+  - label: "Run unit tests"
+    commands:
+      - pytest
