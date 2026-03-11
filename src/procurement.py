@@ -1,5 +1,6 @@
 import re
 
+
 # Validate SKU format: AAA-1234-BB
 def is_valid_sku(sku):
     pattern = r"^[A-Z]{3}-\d{4}-[A-Z]{2}$"
