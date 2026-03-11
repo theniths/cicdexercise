@@ -57,7 +57,6 @@ A small Python project with password-strength checks, wired for CI/CD with Circl
 
 1. **Create a new repository** on [GitHub](https://github.com/new).  
    - Choose a name (e.g. `cicdexercise`).  
-   - Do **not** initialize with a README if you already have local content.
 
 2. **Connect your local repo** (if it isn’t already):
 
@@ -113,13 +112,3 @@ Runs in a **Docker** environment:
 2. Go to **Projects** and **Set Up Project** for this GitHub repo.
 3. Choose the option that uses the existing `.circleci/config.yml` (no need to add a new config).
 4. Push a commit; the first pipeline will run automatically.
-
----
-
-## Quick reference
-
-| Task              | Command           |
-|-------------------|-------------------|
-| Lint              | `flake8 src`       |
-| Test              | `pytest tests`     |
-| Lint + test       | `flake8 src && pytest tests` |
